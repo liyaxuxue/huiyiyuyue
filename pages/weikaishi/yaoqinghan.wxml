@@ -1,0 +1,8 @@
+<!--邀请函-->
+<view class='yaoqin-box'>
+   <image class='tu' src='/assets/images/yaoqingh.png'></image>
+   <view class='baoming'>
+   <button>查看详情</button>
+   <button>立即报名</button>
+   </view>
+</view>

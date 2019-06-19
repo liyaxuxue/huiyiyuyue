@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weikaishi/yaoqinghan",
+    "pages/weikaishi/huiyixiangqing",
+    "pages/weikaishi/wanshanxx",
+    "pages/yikaishi/huiyigaiyao",
+    "pages/yikaishi/huiyixiangqing",
+    "pages/yikaishi/huiyiliebiao",
+    "pages/yikaishi/daka"
+    
+   ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "会议预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/tabs/home-active.png",
+        "selectedIconPath": "assets/tabs/home.png"
+      },
+      {
+        "pagePath": "pages/yikaishi/huiyigaiyao",
+        "text": "我的",
+        "iconPath": "assets/tabs/contact-active.png",
+        "selectedIconPath": "assets/tabs/contact.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

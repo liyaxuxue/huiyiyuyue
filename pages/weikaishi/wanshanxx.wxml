@@ -1,0 +1,64 @@
+<!--完善信息-->
+<view class='xinx-box'>
+  <view class='xinx-top' >
+    <text class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap='jianjie' >1.填写信息</text>
+    <image class='xx-jiant' src='/assets/images/jiantou.png'></image>
+    <text class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap='pinglun'>2.人脸识别</text>
+  </view>
+
+  <!-- 填写信息 -->
+  <view class='xinxi-nier'wx:if="{{condition==true}}" >
+    <view class='edit-txt'>
+      <text class='txt-fl'>参加单位</text>
+      <input class='txt-fr-input' placeholder='北京京东世纪贸易有限公司' ></input>
+    </view>
+
+    <view class='edit-txt'>
+      <text class='txt-fl'>姓名</text>
+      <input class='txt-fr-input' placeholder='张一山' ></input>
+    </view>
+
+    <view class='edit-txt'>
+      <text class='txt-fl'>联系电话</text>
+      <input class='txt-fr-input' placeholder='18310008003' ></input>
+    </view>
+
+
+    <button >保存</button>
+  </view>
+  
+  <!-- 人脸识别 -->
+  <view class='shibiie' wx:if="{{condition==false}}" >
+    <view class='shibiie-lian'>
+      <image  src='/assets/images/renl.jpg'></image>
+    </view>
+    <view class='tishi'>
+      <text>提示</text>
+      <text>1.为了您的会议签到成功，请先进行人脸录入 </text>
+      <text>2.请由本人亲子完成，请将脸部至于提示框内，并按提示完 成动作</text>
+      <button >开始录入</button>
+    </view>
+    
+  </view>
+
+<!-- 确认消息 -->
+   <view class='xinxi-nier qren' style='display: none'>
+    <view class='edit-txt'>
+      <text class='txt-fl'>参加单位</text>
+      <input class='txt-fr-input' placeholder='北京京东世纪贸易有限公司' ></input>
+    </view>
+
+    <view class='edit-txt'>
+      <text class='txt-fl'>姓名</text>
+      <input class='txt-fr-input' placeholder='张一山' ></input>
+    </view>
+
+    <view class='edit-txt'>
+      <text class='txt-fl'>联系电话</text>
+      <input class='txt-fr-input' placeholder='18310008003' ></input>
+    </view>
+
+
+    <button >确认消息</button>
+  </view>
+</view>

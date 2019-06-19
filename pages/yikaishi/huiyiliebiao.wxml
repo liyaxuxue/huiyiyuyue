@@ -1,0 +1,42 @@
+<!--会议列表-->
+<view class='huiyi-liebiao'>
+  <view class='nianhui'>
+    <image src='/assets/images/huiyilieb.png'></image>
+    <text>中国小微金融年会</text>
+    <view class='shijian'>
+      <image src='/assets/tabs/shijian.png'></image>
+      <text>2019-04-05</text>
+      <image src='/assets/tabs/dingwei.png'></image>
+      <text>2019-04-05</text>
+      <!-- <view class='shijia-fl'></view>
+      <view class='shijia-fr'></view> -->
+    </view>
+    <view class='huodong'>进行中</view>
+  </view>
+
+  <view class='nianhui'>
+    <image src='/assets/images/huiyilieb.png'></image>
+    <text>中国小微金融年会</text>
+    <view class='shijian'>
+      <image src='/assets/tabs/shijian.png'></image>
+      <text>2019-04-05</text>
+      <image src='/assets/tabs/dingwei.png'></image>
+      <text>2019-04-05</text>
+      <!-- <view class='shijia-fl'></view>
+      <view class='shijia-fr'></view> -->
+    </view>
+    <view class='huodong guoqi'>已过期</view>
+  </view>
+
+  <view class='nianhui'>
+    <image src='/assets/images/huiyilieb.png'></image>
+    <text>中国小微金融年会</text>
+    <view class='shijian'>
+      <image src='/assets/tabs/shijian.png'></image>
+      <text>2019-04-05</text>
+      <image src='/assets/tabs/dingwei.png'></image>
+      <text>2019-04-05</text>
+    </view>
+    <view class='huodong guoqi'>已过期</view>
+  </view>
+</view>

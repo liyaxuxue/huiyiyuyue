@@ -1,0 +1,70 @@
+<!--打卡-->
+<view class='daka'>
+  <view class='daka-top'>
+    <view class='yuan'>打卡</view>
+    <text>15:07:50</text>
+    <view class='dizhi'>
+      <image src='/assets/tabs/dingwei.png'></image>
+      <text>朗丽兹西山花园酒店</text>
+    </view>
+  </view>
+
+  <!-- 排行榜 -->
+  <view class='paihangbang'>排行榜</view>
+  <view class='mingci'>
+    <view class='paiming'>
+      <image src='/assets/images/jiangpai1.png'></image>
+      <image src='/assets/images/toux.png'></image>
+      <view class='paiming-fr'>
+        <text>付超</text>
+        <text>8时39分</text>
+      </view>
+    </view>
+
+    <view class='paiming'>
+      <image src='/assets/images/jiangpai2.png'></image>
+      <image src='/assets/images/toux.png'></image>
+      <view class='paiming-fr'>
+        <text>胡铁</text>
+        <text>8时39分</text>
+      </view>
+    </view>
+
+    <view class='paiming'>
+      <image src='/assets/images/jiangpai3.png'></image>
+      <image src='/assets/images/toux.png'></image>
+      <view class='paiming-fr'>
+        <text>宦国安</text>
+        <text>8时39分</text>
+      </view>
+    </view>
+
+    <view class='paiming'>
+      <view class='mingci-fl'>4</view>
+      <image src='/assets/images/toux.png'></image>
+      <view class='paiming-fr'>
+        <text>程东</text>
+        <text>8时39分</text>
+      </view>
+    </view>
+
+    <view class='paiming'>
+     <view class='mingci-fl'>5</view>
+     <image src='/assets/images/toux.png'></image>
+     <view class='paiming-fr'>
+       <text>那山那水</text>
+       <text>8时39分</text>
+     </view>
+    </view>
+
+    <view class='paiming'>
+      <view class='mingci-fl'>6</view>
+      <image src='/assets/images/toux.png'></image>
+      <view class='paiming-fr'>
+        <text>张琳</text>
+        <text>8时39分</text>
+      </view>
+    </view>
+
+  </view>
+</view>

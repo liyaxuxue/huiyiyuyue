@@ -1,0 +1,128 @@
+<view class='huiyi-gaiyao'>
+  <view class='gaiyao-top'>
+    <image src='/assets/images/zhutu.png'></image>
+  </view>
+  <!-- 日期 -->
+  <view class="listContainer">
+    <view wx:for="{{data}}" data-index="{{index}}" wx:key="index" class='cell {{curCell == index ? "on" : ""}}' bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend">
+      <view class='collect yanse'>
+      
+        <text>会议概要</text>
+        <image src=''></image>
+      </view>
+
+      <view class='collect'>
+        <text>06-14</text>
+        <text class='xingqi'>周一</text>
+      </view>
+
+      <view class='collect'>
+        <text>06-14</text>
+        <text class='xingqi'>周一</text>
+     
+     
+      </view>
+      <view class='collect'>
+        <text>06-14</text>
+       <text class='xingqi'>周一</text>
+      
+     
+      </view>
+      <view class='collect'>
+        <text>06-14</text>
+         <text class='xingqi'>周一</text>
+       
+
+      </view>
+
+
+    </view>
+  
+  </view>
+
+  <!-- 导航 -->
+  <view class='gaiyao-tab'>
+    <view class='gaiyao-tab-kaishi'>
+      <text class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap='swichNav'>总体日程</text>
+      <view class='col' wx:if="{{condition==true}}" ></view>
+    </view>
+
+    <view class='gaiyao-tab-kaishi'>
+      <text class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap='swichNav'>现场互动</text>
+      <view class='col' wx:if="{{condition==false}}" ></view>
+    </view>
+
+    <view class='gaiyao-tab-kaishi'>
+      <text class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap='swichNav'>精彩回顾</text>
+      <view class='col' wx:if="{{condition==false}}" ></view>
+    </view>
+  </view>
+
+
+  <!-- 内容 总体日程  -->
+  <view  class='zongtiricheng'  wx-if="{{condition==true}}">
+    <view class='gaiyao-xq'>
+      <text class='biaoti'>会议概要</text>
+      <image src='/assets/images/gaiyao.png'></image>
+    </view>
+    <view class='xinwen'>
+      <view class='xinwen-top'>
+        <text>新闻通稿</text>
+        <button>发送至邮箱</button>
+      </view>
+      <view class='xiwens'>
+        <image src='/assets/images/wenjia.jpg'></image>
+        <text>销售二组KPI评估表.doc</text>
+      </view>
+
+      <view class='xiwens'>
+        <image src='/assets/images/wenjia.jpg'></image>
+        <text>销售二组KPI评估表.doc</text>
+      </view>
+
+      <view class='xiwens'>
+        <image src='/assets/images/wenjia.jpg'></image>
+        <text>销售二组KPI评估表.doc</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 现场互动 -->
+  <view class='hudongxianchang' wx-if="{{condition==false}}">
+    
+    <view class='xinwen'>
+      <view class='xinwen-top'>
+        <text>互动要求</text>
+        <button>去打卡</button>
+      </view>
+      <view class='hudong-neir'>
+        <image src='/assets/images/xiancheng.png'></image>
+      </view>
+    </view>
+  </view>
+
+  <!-- 精彩回顾 -->
+  <view class='jingcaihuigu' wx-if="{{condition==false}}">
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+    <view><image src='/assets/images/huiyixiangq.png'></image></view>
+  </view>
+
+  
+</view>
+

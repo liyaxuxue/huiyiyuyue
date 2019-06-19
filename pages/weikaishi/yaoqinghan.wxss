@@ -1,0 +1,29 @@
+/* pages/weikaishi/yaoqinghan.wxss */
+.yaoqin-box{
+  border-top: 1rpx solid #a5a5a5;
+  padding: 44rpx 72rpx;
+  box-sizing: border-box;
+}
+.yaoqin-box .tu{
+  text-align: center;
+  width: 609rpx;
+  height: 979rpx;
+}
+.baoming button{
+  height: 80rpx;
+  width: 276rpx;
+  margin-top: 40rpx;
+  font-size:32rpx;
+  border: red 1rpx solid;
+}
+.baoming button:nth-child(1){
+  float: left;
+  line-height: 80rpx;
+  color: hsla(3, 68%, 48%, 1)
+}
+.baoming button:nth-child(2){
+  float: right;
+  border: 0;
+  background-color: hsla(3, 68%, 48%, 1);
+  color: #fff;
+}

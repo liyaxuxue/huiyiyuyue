@@ -1,0 +1,73 @@
+/* pages/yikaishi/huiyiliebiao.wxss */
+.huiyi-liebiao{
+  border-top: 1rpx solid #ccc;
+  padding: 24rpx 32rpx;
+  box-sizing: border-box;
+}
+.nianhui{
+  height: 490rpx;
+  margin-top: 40rpx;
+  position: relative;
+}
+.huodong{
+  width:130rpx;
+  height:51rpx;
+  background:rgba(205,48,39,1);
+  border-radius:0rpx 26rpx 26rpx 0rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 0;
+  color:rgba(255,255,255,1);
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 51rpx;
+}
+.guoqi{
+  background:rgba(153,153,153,1);
+}
+.nianhui:nth-child(1){
+  margin-top:0;
+}
+.nianhui image{
+  width:686rpx;
+  height:380rpx;
+  border-radius:10rpx;
+}
+.nianhui text{
+  width:252rpx;
+  height:31rpx;
+  font-size:32rpx;
+
+  font-weight:500;
+  color:rgba(16,16,16,1);
+  line-height:30rpx;
+}
+.shijian{
+  height: 30rpx;
+
+}
+.shijian image:nth-child(1){
+  height: 30rpx;
+  width: 30rpx;
+}
+.shijian text:nth-child(2){
+  width:166rpx;
+  height:22rpx;
+  font-size:28rpx;
+  font-weight:500;
+  color:rgba(153,153,153,1);
+  margin-left: 13rpx;
+}
+.shijian image:nth-child(3){
+  height: 30rpx;
+  width: 28rpx;
+  margin-left: 56rpx;
+}
+.shijian text:nth-child(4){
+  width:54prx;
+  height:26rpx;
+  font-size:28rpx;
+  font-weight:500;
+  color:rgba(153,153,153,1);
+  margin-left: 9rpx;
+}
